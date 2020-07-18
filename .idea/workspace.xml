@@ -1,172 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02e1fd98-0bd7-4dd9-ac89-196f33ae734b" name="Default Changelist" comment="私人图书馆后端部分 进度同前端 实现图书的增删改查  还未实现图书喜好">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9f894d37-d767-43e9-a3d7-79808690cb63.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9f894d37-d767-43e9-a3d7-79808690cb63/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogbackend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/BlogbackendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/CrossInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/controller/LibraryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/error/ErrorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/fonts/element-icons.535877f.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/fonts/element-icons.732389d.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/img/bg4.72f4c91.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.6e1ce43af09411fca1f7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.6e1ce43af09411fca1f7.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/vendor.a948d190be335c9e1dfc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/vendor.a948d190be335c9e1dfc.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aresix/blogbackend/BlogbackendApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/blogbackend.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/BlogbackendApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/CrossInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/controller/LibraryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/dao/CategoryDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/error/ErrorConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/pojo/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/result/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/fonts/element-icons.535877f.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/fonts/element-icons.732389d.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/img/bg4.72f4c91.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.6e1ce43af09411fca1f7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.6e1ce43af09411fca1f7.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/vendor.a948d190be335c9e1dfc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/vendor.a948d190be335c9e1dfc.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/aresix/blogbackend/BlogbackendApplicationTests.class" afterDir="false" />
+    <list default="true" id="02e1fd98-0bd7-4dd9-ac89-196f33ae734b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/config/MyWebConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/util/openDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aresix/blogbackend/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/controller/LibraryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/controller/LibraryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aresix/blogbackend/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/app.6e1ce43af09411fca1f7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.6e1ce43af09411fca1f7.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,8 +150,17 @@
       <workItem from="1594617915748" duration="6648000" />
       <workItem from="1594787259719" duration="6622000" />
       <workItem from="1594877102294" duration="6971000" />
-      <workItem from="1594991716502" duration="3739000" />
+      <workItem from="1594991716502" duration="11814000" />
+      <workItem from="1595085183348" duration="1682000" />
     </task>
+    <task id="LOCAL-00001" summary="私人图书馆后端部分 进度同前端 实现图书的增删改查  还未实现图书喜好">
+      <created>1595058154676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595058154676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="732" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1594825080968" />
-    <state x="525" y="11" key="CommitChangelistDialog2" timestamp="1595058129069">
+    <state x="525" y="11" key="CommitChangelistDialog2" timestamp="1595058152034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="525" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595058129069" />
+    <state x="525" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595058152034" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1594629125924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -341,38 +197,42 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="933" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1595057991822" />
-    <state width="725" height="322" key="GridCell.Tab.0.bottom" timestamp="1595058129268">
+    <state x="859" y="188" width="631" height="330" key="Github.ShareDialog" timestamp="1595058210670">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595058129268" />
-    <state width="725" height="322" key="GridCell.Tab.0.center" timestamp="1595058129267">
+    <state x="859" y="188" width="631" height="330" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1595058210670" />
+    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595058129267" />
-    <state width="725" height="322" key="GridCell.Tab.0.left" timestamp="1595058129267">
+    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595058129267" />
-    <state width="725" height="322" key="GridCell.Tab.0.right" timestamp="1595058129268">
+    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595058129268" />
-    <state width="725" height="322" key="GridCell.Tab.1.bottom" timestamp="1595058129269">
+    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595058129269" />
-    <state width="725" height="322" key="GridCell.Tab.1.center" timestamp="1595058129268">
+    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595058129268" />
-    <state width="725" height="322" key="GridCell.Tab.1.left" timestamp="1595058129268">
+    <state width="1493" height="268" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.1.center" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595058129268" />
-    <state width="725" height="322" key="GridCell.Tab.1.right" timestamp="1595058129268">
+    <state width="1493" height="268" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.1.left" timestamp="1595086909018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="725" height="322" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595058129268" />
+    <state width="1493" height="268" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
+    <state width="1493" height="268" key="GridCell.Tab.1.right" timestamp="1595086909018">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595086909018" />
     <state x="598" y="75" key="Maven.ArtifactSearchDialog" timestamp="1594825405476">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -385,9 +245,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1594046664178" />
-    <state x="818" y="294" width="672" height="678" key="search.everywhere.popup" timestamp="1594878306146">
+    <state x="818" y="294" width="672" height="678" key="search.everywhere.popup" timestamp="1595063611589">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="818" y="294" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1594878306146" />
+    <state x="818" y="294" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595063611589" />
   </component>
 </project>

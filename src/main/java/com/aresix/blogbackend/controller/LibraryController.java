@@ -2,10 +2,17 @@ package com.aresix.blogbackend.controller;
 
 import com.aresix.blogbackend.pojo.Book;
 import com.aresix.blogbackend.service.BookService;
+import com.aresix.blogbackend.util.StringUtils;
+import com.aresix.blogbackend.util.openDirectory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
 
 @RestController
 @CrossOrigin
@@ -50,6 +57,26 @@ public class LibraryController {
             return bookService.list();
         } else {
             return bookService.Search(keywords);
+        }
+    }
+
+    @CrossOrigin
+    @PostMapping("api/covers")
+    public String coversUpload(MultipartFile file) throws Exception {
+        String folder = "F:/ECNU/DBMS/project/blogbackend/src/main/resources/img";
+//        openDirectory.open_directory(folder);
+        File imageFolder = new File(folder);
+        File f = new File(imageFolder, StringUtils.getRandomString(6) + Objects.requireNonNull(file.getOriginalFilename())
+                .substring(file.getOriginalFilename().length() - 4));
+//        if (!f.getParentFile().exists())
+//            f.getParentFile().mkdirs();
+        try {
+            file.transferTo(f);
+            System.out.println("许墨？！" + file.getName());
+            return "http://localhost:8443/api/file/" + f.getName();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "";
         }
     }
 }
