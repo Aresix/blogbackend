@@ -1,4 +1,4 @@
-package com.aresix.blogbackend;
+package com.aresix.blogbackend.config;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.servlet.HandlerInterceptor;

@@ -63,17 +63,16 @@ public class LibraryController {
     @CrossOrigin
     @PostMapping("api/covers")
     public String coversUpload(MultipartFile file) throws Exception {
-        String folder = "F:/ECNU/DBMS/project/blogbackend/src/main/resources/img";
-//        openDirectory.open_directory(folder);
+        String folder = "F:/ECNU/DBMS/project/blogbackend/src/main/resources/img/covers";
         File imageFolder = new File(folder);
         File f = new File(imageFolder, StringUtils.getRandomString(6) + Objects.requireNonNull(file.getOriginalFilename())
                 .substring(file.getOriginalFilename().length() - 4));
-//        if (!f.getParentFile().exists())
-//            f.getParentFile().mkdirs();
+        if (!f.getParentFile().exists())
+            f.getParentFile().mkdirs();
         try {
             file.transferTo(f);
             System.out.println("许墨？！" + file.getName());
-            return "http://localhost:8443/api/file/" + f.getName();
+            return "http://localhost:8443/api/file/covers/" + f.getName();
         } catch (IOException e) {
             e.printStackTrace();
             return "";
