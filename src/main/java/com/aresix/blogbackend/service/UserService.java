@@ -19,6 +19,10 @@ public class UserService {
         return userDao.findByUsername(username);
     }
 
+    public User getById(int id) {
+        return userDao.findById(id);
+    }
+
     // 通过用户名及密码查询并获得对象
     public User get(String username, String password) {
         return userDao.getByUsernameAndPassword(username, password);
@@ -26,5 +30,13 @@ public class UserService {
 
     public void add(User user) {
         userDao.save(user);
+    }
+
+    public void update(User user) {
+        String avatar = user.getAvatar();
+        String nickname = user.getNickname();
+        String content = user.getContent();
+        String username = user.getUsername();
+        userDao.updateInfo(avatar, nickname, content, username);
     }
 }
