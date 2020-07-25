@@ -3,6 +3,7 @@ package com.aresix.blogbackend.pojo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "book")
@@ -11,20 +12,20 @@ public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    int id;
+    private int id;
 
     @ManyToOne
     @JoinColumn(name = "cid")
     // 目的：把category对象的id属性作为cid进行查询
     private Category category;
 
-    String cover;
-    String title;
-    String author;
-    String year;
-    String press;
-    String price;
-    float grade;
+    private String cover;
+    private String title;
+    private String author;
+    private String year;
+    private String press;
+    private String price;
+    private float grade;
 
     public String getYear() {
         return year;
@@ -108,4 +109,17 @@ public class Book {
         this.author = author;
     }
 
+//    @ManyToMany(cascade = CascadeType.ALL)
+//    @JoinTable(name = "likebook",
+//            inverseJoinColumns = @JoinColumn(name = "bid"),
+//            joinColumns = @JoinColumn(name = "uid"))
+//    private List<User> likerlist;
+//
+//    public List<User> getLikerlist() {
+//        return likerlist;
+//    }
+//
+//    public void setLikerlist(List<User> likerlist) {
+//        this.likerlist = likerlist;
+//    }
 }

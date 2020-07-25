@@ -12,7 +12,8 @@
     <artifactId>blogbackend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>blogbackend</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for Spring Boot and DBMS</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>1.8</java.version>

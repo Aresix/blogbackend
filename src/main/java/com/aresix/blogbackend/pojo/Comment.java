@@ -11,11 +11,11 @@ public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "tid")
-    int tid;
+    private int tid;
 
-    String book;
-    String commenter;
-    String body;
+    private String book;
+    private String commenter;
+    private String body;
 
     public int getTid() {
         return tid;

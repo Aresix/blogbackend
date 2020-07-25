@@ -28,10 +28,17 @@ public class LoginController {
         if (null == user) {
             String message = "账号密码错误";
             // TODO: 判断具体是用户名不存在还是密码错误
-            System.out.println("test");
+//            System.out.println("test");
             return new Result(400);
         } else {
             return new Result(200);
         }
+    }
+
+    @CrossOrigin
+    @PostMapping(value = "api/register")
+    @ResponseBody
+    public void register(@RequestBody User user) {
+        userService.add(user);
     }
 }
